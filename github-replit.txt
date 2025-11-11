@@ -1,0 +1,10 @@
+run = "npm start"
+entrypoint = "index.js"
+modules = ["nodejs-20"]
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["npm", "start"]
+deploymentTarget = "cloudrun"
