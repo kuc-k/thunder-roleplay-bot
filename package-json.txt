@@ -1,0 +1,19 @@
+{
+  "name": "thunder-roleplay-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord do Thunder Roleplay z formularzem modalnym",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["discord", "bot", "roleplay", "thunder"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
